@@ -8,7 +8,7 @@
 ![Equity Curve](equity_curve.png)
 
 ### Drawdown
-![Drawdown](drawdown.png)
+![Drawdown](plots/drawdown.png)
 
 ### Monthly Returns
 ![Monthly](monthly_returns.png)
