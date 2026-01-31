@@ -6,7 +6,7 @@ cd "$REPO_DIR"
 
 ./sync_reports.sh
 
-python3 - << 'PY'
+/opt/miniconda3/envs/trading/bin/python - << 'PY'
 from pathlib import Path
 import pandas as pd
 import re
