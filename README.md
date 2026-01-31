@@ -2,6 +2,8 @@
 
 Performance metrics are calculated net of transaction costs and slippage. All live and backtest metrics are updated automatically on a daily basis.
 
+Test
+
 ## Metrics
 - CSV: `metrics_strategy.csv`
 
