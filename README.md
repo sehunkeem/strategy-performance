@@ -5,10 +5,12 @@
 
 ## Plots
 ### Equity Curve
-![Equity Curve](/plots/equity_curve.png)
+![Equity Curve](/plots/equity_curves.png)
 
 ### Drawdown
-![Drawdown](plots/drawdown.png)
+![Drawdown](/plots/drawdown.png)
 
 ### Monthly Returns
-![Monthly](plots/monthly_returns.png)
+![Monthly](/plots/return_hist.png)
+
+
