@@ -2,7 +2,7 @@
 set -euo pipefail
 
 SRC_BASE="/Users/skim/Desktop/trading_system/artifacts/reports"
-DST_BASE="/Users/skim/Desktop/statarb-performance/reports"
+DST_BASE="/Users/skim/Desktop/strategy-performance"
 
 mkdir -p "${DST_BASE}/plots"
 
