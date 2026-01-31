@@ -1,0 +1,7 @@
+# Cron / job logs
+cron_logs/
+*.log
+
+.DS_Store
+__pycache__/
+*.pyc
