@@ -17,7 +17,6 @@ readme = repo / "README.md"
 
 df = pd.read_csv(csv_path)
 
-# Requires: pip install tabulate
 table = df.to_markdown(index=False)
 
 text = readme.read_text(encoding="utf-8")
@@ -33,7 +32,6 @@ PY
 
 git add -A
 
-# If nothing staged, exit
 if git diff --cached --quiet; then
   echo "[publish] No changes."
   exit 0
