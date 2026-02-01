@@ -37,10 +37,10 @@ Performance metrics are calculated net of transaction costs and slippage. All li
 ![Equity Curve](/plots/equity_curves.png)
 
 ### Monthly Returns Heatmap
-![Monthly](/plots/return_hist.png)
+![Monthly](/plots/monthly_heatmap.png)
 
 ### Drawdown
 ![Drawdown](/plots/drawdown.png)
 
-### Returns
-![Monthly](/plots/return_hist.png)
+### Returns Distribution
+![Returns](/plots/return_hist.png)
