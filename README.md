@@ -8,28 +8,28 @@ Performance metrics are calculated net of transaction costs and slippage. All li
 <!-- METRICS_START -->
 | metric                     |     values |
 |:---------------------------|-----------:|
-| n_obs                      |   5        |
-| mean_daily                 |  -0.002639 |
-| vol_daily                  |   0.014211 |
-| mean_annualized            |  -0.9633   |
-| vol_annualized             |   0.2715   |
+| n_obs                      |   6        |
+| mean_daily                 |  -0.002726 |
+| vol_daily                  |   0.012974 |
+| mean_annualized            |  -0.9948   |
+| vol_annualized             |   0.2479   |
 | max_drawdown               |  -0.0269   |
-| max_drawdown_duration_days |   5        |
-| sharpe                     |  -3.548    |
-| sortino                    |  -5.5229   |
-| calmar                     | -23.5571   |
-| cagr                       |  -0.633    |
-| skewness                   |  -0.8948   |
-| kurtosis                   |   0.6632   |
-| win_rate                   |   0.6      |
-| profit_factor              |   0.6282   |
-| var_1pct                   |  -0.0261   |
+| max_drawdown_duration_days |   6        |
+| sharpe                     |  -4.0135   |
+| sortino                    |  -5.1349   |
+| calmar                     | -23.9003   |
+| cagr                       |  -0.6423   |
+| skewness                   |  -0.8727   |
+| kurtosis                   |   1.2766   |
+| win_rate                   |   0.5      |
+| profit_factor              |   0.5768   |
+| var_1pct                   |  -0.026    |
 | cvar_1pct                  |  -0.0269   |
-| var_5pct                   |  -0.0232   |
+| var_5pct                   |  -0.0223   |
 | cvar_5pct                  |  -0.0269   |
-| ar1_beta                   |  -0.5025   |
-| ar1_tstat                  |  -3.5346   |
-| corr_with_btc              |  -0.1995   |
+| ar1_beta                   |  -0.5166   |
+| ar1_tstat                  |  -4.4522   |
+| corr_with_btc              |  -0.1993   |
 <!-- METRICS_END -->
 
 ## Plots
