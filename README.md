@@ -1,6 +1,9 @@
 # Strategy Report
 
-Performance metrics are calculated net of transaction costs and slippage. All live and backtest metrics are updated automatically on a daily basis.
+
+This repository tracks the live performance of a self-funded statistical arbitrage strategy.
+The strategy is rebalanced daily, targets market-neutral exposure, and maintains constant gross exposure.
+All results shown are live, net of transaction costs and slippage.
 
 ## Metrics
 - CSV: `metrics_strategy.csv`
