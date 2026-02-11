@@ -1,9 +1,8 @@
 # Strategy Report
 
-
-This repository tracks the live performance of a self-funded statistical arbitrage strategy.
-The strategy is rebalanced daily, targets market-neutral exposure, and maintains constant gross exposure.
-All results shown are live, net of transaction costs and slippage.
+A systematic statistical arbitrage strategy using deep learning models in liquid Binance futures.
+The portfolio is rebalanced daily under market-neutral and constant-gross constraints.
+All results are live and reported net of transaction costs and slippage.
 
 ## Metrics
 - CSV: `metrics_strategy.csv`
@@ -11,28 +10,26 @@ All results shown are live, net of transaction costs and slippage.
 <!-- METRICS_START -->
 | metric                     |    values |
 |:---------------------------|----------:|
-| n_obs                      | 14        |
-| mean_daily                 | -0.001065 |
-| vol_daily                  |  0.012318 |
-| mean_annualized            | -0.3888   |
-| vol_annualized             |  0.2353   |
+| n_obs                      | 15        |
+| mean_daily                 | -0.00056  |
+| vol_daily                  |  0.012049 |
+| mean_annualized            | -0.2046   |
+| vol_annualized             |  0.2302   |
 | max_drawdown               | -0.0408   |
-| max_drawdown_duration_days | 14        |
-| sharpe                     | -1.6521   |
-| sortino                    | -1.7774   |
-| calmar                     | -8.3572   |
-| cagr                       | -0.3412   |
-| skewness                   | -1.5066   |
-| kurtosis                   |  1.735    |
-| win_rate                   |  0.7143   |
-| profit_factor              |  0.7823   |
-| var_1pct                   | -0.0295   |
+| max_drawdown_duration_days | 15        |
+| sharpe                     | -0.8886   |
+| sortino                    | -0.9351   |
+| calmar                     | -5.0637   |
+| cagr                       | -0.2067   |
+| skewness                   | -1.6114   |
+| kurtosis                   |  2.1034   |
+| win_rate                   |  0.7333   |
+| profit_factor              |  0.8773   |
+| var_1pct                   | -0.0294   |
 | cvar_1pct                  | -0.0298   |
-| var_5pct                   | -0.0279   |
+| var_5pct                   | -0.0278   |
 | cvar_5pct                  | -0.0298   |
-| ar1_beta                   | -0.3171   |
-| ar1_tstat                  | -1.3842   |
-| corr_with_btc              |  0.4924   |
+| corr_with_btc              |  0.4833   |
 <!-- METRICS_END -->
 
 ## Plots
