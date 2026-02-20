@@ -10,26 +10,26 @@ All results are live and reported net of transaction costs and slippage.
 <!-- METRICS_START -->
 | metric                     |    values |
 |:---------------------------|----------:|
-| n_obs                      | 23        |
-| mean_daily                 |  0.001203 |
-| vol_daily                  |  0.010779 |
-| mean_annualized            |  0.439    |
-| vol_annualized             |  0.2059   |
+| n_obs                      | 24        |
+| mean_daily                 |  0.001441 |
+| vol_daily                  |  0.010614 |
+| mean_annualized            |  0.5261   |
+| vol_annualized             |  0.2028   |
 | max_drawdown               | -0.0408   |
 | max_drawdown_duration_days | 19        |
-| sharpe                     |  2.1317   |
-| sortino                    |  2.0248   |
-| calmar                     | 12.6949   |
-| cagr                       |  0.5183   |
-| skewness                   | -1.6566   |
-| kurtosis                   |  3.3202   |
-| win_rate                   |  0.6957   |
-| profit_factor              |  1.3658   |
+| sharpe                     |  2.5945   |
+| sortino                    |  2.4267   |
+| calmar                     | 16.1045   |
+| cagr                       |  0.6575   |
+| skewness                   | -1.7229   |
+| kurtosis                   |  3.5856   |
+| win_rate                   |  0.7083   |
+| profit_factor              |  1.4575   |
 | var_1pct                   | -0.0292   |
 | cvar_1pct                  | -0.0298   |
-| var_5pct                   | -0.025    |
+| var_5pct                   | -0.0241   |
 | cvar_5pct                  | -0.0284   |
-| corr_with_btc              |  0.4865   |
+| corr_with_btc              |  0.4912   |
 <!-- METRICS_END -->
 
 ## Plots
