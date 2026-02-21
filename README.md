@@ -39,6 +39,8 @@ All results are live and reported net of transaction costs and slippage.
 |:---------------------------------------------------|---------:|
 | alpha                                              |   0.05   |
 | Daily Sharpe Ratio                                 |   0.1467 |
+| t-statistic                                        |   0.7333 |
+| Two sided p-value                                  |   0.4705 |
 | Annualized Sharpe Ratio                            |   2.8019 |
 | Ann. Sharpe Confidence Interval Lower Bound        |  -4.8826 |
 | Ann. Sharpe Confidence Interval Upper Bound        |  10.4863 |
@@ -46,8 +48,6 @@ All results are live and reported net of transaction costs and slippage.
 | Ann. Sharpe Bootstrap C.I. Upper Bound             |  15.3406 |
 | Ann. Sharpe Studentized Bootstrap C.I. Lower Bound |  -8.1604 |
 | Ann. Sharpe Studentized Bootstrap C.I. Upper Bound |   8.5757 |
-| t-statistic                                        |   0.7333 |
-| Two sided p-value                                  |   0.4705 |
 <!-- SHARPE_END -->
 
 ## Plots
