@@ -33,19 +33,20 @@ All results are live and reported net of transaction costs and slippage.
 <!-- METRICS_END -->
 
 <!-- SHARPE_START -->
-<bound method DataFrame.to_markdown of                                                metric  strategy
-0                                               alpha     0.050
-1                                  Daily Sharpe Ratio     0.146
-2                             Annualized Sharpe Ratio     2.790
-3                                         t-statistic     0.730
-4                                   Two sided p-value     0.472
-5              Daily Sharpe Standard Error (Lo, 2002)     0.205
-6         Ann. Sharpe Confidence Interval Lower Bound    -4.894
-7         Ann. Sharpe Confidence Interval Upper Bound    10.474
-8              Ann. Sharpe Bootstrap C.I. Lower Bound    -2.989
-9              Ann. Sharpe Bootstrap C.I. Upper Bound    15.279
-10  Ann. Sharpe Studentized Bootstrap C.I. Lower B...    -8.139
-11  Ann. Sharpe Studentized Bootstrap C.I. Upper B...     8.564>
+| metric                                             |   strategy |
+|:---------------------------------------------------|-----------:|
+| alpha                                              |      0.05  |
+| Daily Sharpe Ratio                                 |      0.146 |
+| Annualized Sharpe Ratio                            |      2.79  |
+| t-statistic                                        |      0.73  |
+| Two sided p-value                                  |      0.472 |
+| Daily Sharpe Standard Error (Lo, 2002)             |      0.205 |
+| Ann. Sharpe Confidence Interval Lower Bound        |     -4.894 |
+| Ann. Sharpe Confidence Interval Upper Bound        |     10.474 |
+| Ann. Sharpe Bootstrap C.I. Lower Bound             |     -2.989 |
+| Ann. Sharpe Bootstrap C.I. Upper Bound             |     15.279 |
+| Ann. Sharpe Studentized Bootstrap C.I. Lower Bound |     -8.139 |
+| Ann. Sharpe Studentized Bootstrap C.I. Upper Bound |      8.564 |
 <!-- SHARPE_END -->
 
 ## Plots

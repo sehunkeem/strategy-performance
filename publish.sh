@@ -24,9 +24,7 @@ df_sharpe = pd.read_csv(csv_sharpe_path)
 metrics_table = df.to_markdown(index=False)
 
 # ---- (B) sharpe stats section ----
-
-# vertical key/value markdown table
-sharpe_table = df_sharpe.to_markdown
+sharpe_table = df_sharpe.to_markdown(index=False)
 
 text = readme.read_text(encoding="utf-8")
 
