@@ -10,26 +10,26 @@ All results are live and reported net of transaction costs and slippage.
 <!-- METRICS_START -->
 | metric                     |    values |
 |:---------------------------|----------:|
-| n_obs                      | 24        |
-| mean_daily                 |  0.001441 |
-| vol_daily                  |  0.010614 |
-| mean_annualized            |  0.5261   |
-| vol_annualized             |  0.2028   |
+| n_obs                      | 25        |
+| mean_daily                 |  0.001559 |
+| vol_daily                  |  0.010415 |
+| mean_annualized            |  0.569    |
+| vol_annualized             |  0.199    |
 | max_drawdown               | -0.0408   |
 | max_drawdown_duration_days | 19        |
-| sharpe                     |  2.5945   |
-| sortino                    |  2.4267   |
-| calmar                     | 16.1045   |
-| cagr                       |  0.6575   |
-| skewness                   | -1.7229   |
-| kurtosis                   |  3.5856   |
-| win_rate                   |  0.7083   |
-| profit_factor              |  1.4575   |
-| var_1pct                   | -0.0292   |
+| sharpe                     |  2.8596   |
+| sortino                    |  2.6247   |
+| calmar                     | 17.9162   |
+| cagr                       |  0.7315   |
+| skewness                   | -1.7807   |
+| kurtosis                   |  3.8795   |
+| win_rate                   |  0.72     |
+| profit_factor              |  1.5154   |
+| var_1pct                   | -0.0291   |
 | cvar_1pct                  | -0.0298   |
-| var_5pct                   | -0.0241   |
+| var_5pct                   | -0.0232   |
 | cvar_5pct                  | -0.0284   |
-| corr_with_btc              |  0.4912   |
+| corr_with_btc              |  0.4938   |
 <!-- METRICS_END -->
 
 ## Plots
