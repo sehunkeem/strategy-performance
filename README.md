@@ -32,6 +32,8 @@ All results are live and reported net of transaction costs and slippage.
 | Correlation with BTC         |  0.4938   |
 <!-- METRICS_END -->
 
+## Sharpe Statistics
+- CSV: `sharpe_metrics.csv`
 <!-- SHARPE_START -->
 | metric                                             |   values |
 |:---------------------------------------------------|---------:|
@@ -49,8 +51,9 @@ All results are live and reported net of transaction costs and slippage.
 <!-- SHARPE_END -->
 
 ## Plots
-### Equity Curve
+### Equity Curves
 ![Equity Curve](/plots/equity_curves.png)
+![Equity Curve](/plots/equity_curve.png)
 
 ### Monthly Returns Heatmap
 ![Monthly](/plots/monthly_heatmap.png)
