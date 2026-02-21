@@ -8,29 +8,36 @@ All results are live and reported net of transaction costs and slippage.
 - CSV: `metrics_strategy.csv`
 
 <!-- METRICS_START -->
-| metric                     |    values |
-|:---------------------------|----------:|
-| n_obs                      | 25        |
-| mean_daily                 |  0.001559 |
-| vol_daily                  |  0.010415 |
-| mean_annualized            |  0.569    |
-| vol_annualized             |  0.199    |
-| max_drawdown               | -0.0408   |
-| max_drawdown_duration_days | 19        |
-| sharpe                     |  2.8596   |
-| sortino                    |  2.6247   |
-| calmar                     | 17.9162   |
-| cagr                       |  0.7315   |
-| skewness                   | -1.7807   |
-| kurtosis                   |  3.8795   |
-| win_rate                   |  0.72     |
-| profit_factor              |  1.5154   |
-| var_1pct                   | -0.0291   |
-| cvar_1pct                  | -0.0298   |
-| var_5pct                   | -0.0232   |
-| cvar_5pct                  | -0.0284   |
-| corr_with_btc              |  0.4938   |
+| metric                       |    values |
+|:-----------------------------|----------:|
+| Number of Observations       | 25        |
+| Mean Daily Return            |  0.001559 |
+| Daily Volatility             |  0.01063  |
+| Mean Annualized Return       |  0.569    |
+| Annualized Volatility        |  0.2031   |
+| Maximum Drawdown             | -0.0408   |
+| Max Drawdown Duration (Days) | 19        |
+| Sharpe                       |  2.8019   |
+| Sortino                      |  2.6247   |
+| Calmar                       | 17.9162   |
+| CAGR                         |  0.7315   |
+| Skewness                     | -1.7807   |
+| Excess Kurtosis              |  3.8795   |
+| Win Rate                     |  0.72     |
+| Profit Factor                |  1.5154   |
+| VaR 1%                       | -0.0291   |
+| CVaR 1%                      | -0.0298   |
+| VaR 5%                       | -0.0232   |
+| CVaR 5%                      | -0.0284   |
+| Correlation with BTC         |  0.4938   |
 <!-- METRICS_END -->
+
+<!-- SHARPE_START -->
+| Metric   | Value                                              |
+|:---------|:---------------------------------------------------|
+| metric   | Ann. Sharpe Studentized Bootstrap C.I. Upper Bound |
+| strategy | 8.564                                              |
+<!-- SHARPE_END -->
 
 ## Plots
 ### Equity Curve
