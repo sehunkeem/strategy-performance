@@ -44,8 +44,8 @@ All results are live and reported net of transaction costs and slippage.
 | Annualized Sharpe Ratio                       |   2.8019 |
 | Sharpe Confidence Interval Lower Bound        |  -4.8826 |
 | Sharpe Confidence Interval Upper Bound        |  10.4863 |
-| Sharpe Studentized Bootstrap C.I. Lower Bound |  -8.1604 |
-| Sharpe Studentized Bootstrap C.I. Upper Bound |   8.5757 |
+| Sharpe Studentized Bootstrap C.I. Lower Bound |  -8.6088 |
+| Sharpe Studentized Bootstrap C.I. Upper Bound |   8.4455 |
 <!-- SHARPE_END -->
 
 ## Plots
