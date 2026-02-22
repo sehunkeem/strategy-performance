@@ -42,17 +42,17 @@ All results are live and reported net of transaction costs and slippage.
 - **Bootstrap Confidence Intervals:** Computed using a circular block bootstrap with studentized Sharpe statistics to account for time-series dependence.
 
 <!-- SHARPE_START -->
-| metric                                        |   values |
-|:----------------------------------------------|---------:|
-| alpha                                         |   0.05   |
-| Daily Sharpe Ratio                            |   0.1441 |
-| t-statistic                                   |   0.7346 |
-| Two sided p-value                             |   0.4694 |
-| Annualized Sharpe Ratio                       |   2.7524 |
-| Sharpe Confidence Interval Lower Bound        |  -5.752  |
-| Sharpe Confidence Interval Upper Bound        |  11.2567 |
-| Sharpe Studentized Bootstrap C.I. Lower Bound | -11.6184 |
-| Sharpe Studentized Bootstrap C.I. Upper Bound |   9.9259 |
+| metric                     |   values |
+|:---------------------------|---------:|
+| alpha                      |   0.05   |
+| t-statistic                |   0.7346 |
+| p-value                    |   0.4694 |
+| Daily Sharpe Ratio         |   0.1441 |
+| Annualized Sharpe Ratio    |   2.7524 |
+| C.I. Lower Bound           |  -5.752  |
+| C.I. Upper Bound           |  11.2567 |
+| Bootstrap C.I. Lower Bound | -11.6184 |
+| Bootstrap C.I. Upper Bound |   9.9259 |
 <!-- SHARPE_END -->
 
 ## Plots
