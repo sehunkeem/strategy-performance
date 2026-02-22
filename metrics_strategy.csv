@@ -1,21 +1,21 @@
 metric,values
-Number of Observations,25.0
-Mean Daily Return,0.001559
-Daily Volatility,0.01063
-Mean Annualized Return,0.569
-Annualized Volatility,0.2031
+Number of Observations,26.0
+Mean Daily Return,0.001501
+Daily Volatility,0.01042
+Mean Annualized Return,0.5479
+Annualized Volatility,0.1991
 Maximum Drawdown,-0.0408
 Max Drawdown Duration (Days),19.0
-Sharpe,2.8019
-Sortino,2.6247
-Calmar,17.9162
-CAGR,0.7315
-Skewness,-1.7807
-Excess Kurtosis,3.8795
-Win Rate,0.72
-Profit Factor,1.5154
+Sharpe,2.7524
+Sortino,2.5273
+Calmar,17.0619
+CAGR,0.6966
+Skewness,-1.7912
+Excess Kurtosis,4.0667
+Win Rate,0.7308
+Profit Factor,1.5161
 VaR 1%,-0.0291
 CVaR 1%,-0.0298
-VaR 5%,-0.0232
+VaR 5%,-0.0223
 CVaR 5%,-0.0284
-Correlation with BTC,0.4938
+Correlation with BTC,0.492

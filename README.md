@@ -10,42 +10,44 @@ All results are live and reported net of transaction costs and slippage.
 <!-- METRICS_START -->
 | metric                       |    values |
 |:-----------------------------|----------:|
-| Number of Observations       | 25        |
-| Mean Daily Return            |  0.001559 |
-| Daily Volatility             |  0.01063  |
-| Mean Annualized Return       |  0.569    |
-| Annualized Volatility        |  0.2031   |
+| Number of Observations       | 26        |
+| Mean Daily Return            |  0.001501 |
+| Daily Volatility             |  0.01042  |
+| Mean Annualized Return       |  0.5479   |
+| Annualized Volatility        |  0.1991   |
 | Maximum Drawdown             | -0.0408   |
 | Max Drawdown Duration (Days) | 19        |
-| Sharpe                       |  2.8019   |
-| Sortino                      |  2.6247   |
-| Calmar                       | 17.9162   |
-| CAGR                         |  0.7315   |
-| Skewness                     | -1.7807   |
-| Excess Kurtosis              |  3.8795   |
-| Win Rate                     |  0.72     |
-| Profit Factor                |  1.5154   |
+| Sharpe                       |  2.7524   |
+| Sortino                      |  2.5273   |
+| Calmar                       | 17.0619   |
+| CAGR                         |  0.6966   |
+| Skewness                     | -1.7912   |
+| Excess Kurtosis              |  4.0667   |
+| Win Rate                     |  0.7308   |
+| Profit Factor                |  1.5161   |
 | VaR 1%                       | -0.0291   |
 | CVaR 1%                      | -0.0298   |
-| VaR 5%                       | -0.0232   |
+| VaR 5%                       | -0.0223   |
 | CVaR 5%                      | -0.0284   |
-| Correlation with BTC         |  0.4938   |
+| Correlation with BTC         |  0.492    |
 <!-- METRICS_END -->
 
 ## Sharpe Statistics
 - CSV: `sharpe_metrics.csv`
+- Classical inference (t-statistic and confidence intervals) is based on Lo (2002) asymptotic standard error for the Sharpe ratio under i.i.d. Gaussian returns.
+- Bootstrap confidence intervals are computed using circular block bootstrap with studentized Sharpe statistics.
 <!-- SHARPE_START -->
 | metric                                        |   values |
 |:----------------------------------------------|---------:|
 | alpha                                         |   0.05   |
-| Daily Sharpe Ratio                            |   0.1467 |
-| t-statistic                                   |   0.7333 |
-| Two sided p-value                             |   0.4705 |
-| Annualized Sharpe Ratio                       |   2.8019 |
-| Sharpe Confidence Interval Lower Bound        |  -4.8826 |
-| Sharpe Confidence Interval Upper Bound        |  10.4863 |
-| Sharpe Studentized Bootstrap C.I. Lower Bound |  -8.6088 |
-| Sharpe Studentized Bootstrap C.I. Upper Bound |   8.4455 |
+| Daily Sharpe Ratio                            |   0.1441 |
+| t-statistic                                   |   0.7346 |
+| Two sided p-value                             |   0.4694 |
+| Annualized Sharpe Ratio                       |   2.7524 |
+| Sharpe Confidence Interval Lower Bound        |  -4.7754 |
+| Sharpe Confidence Interval Upper Bound        |  10.2802 |
+| Sharpe Studentized Bootstrap C.I. Lower Bound |  -8.6686 |
+| Sharpe Studentized Bootstrap C.I. Upper Bound |   8.4436 |
 <!-- SHARPE_END -->
 
 ## Plots
