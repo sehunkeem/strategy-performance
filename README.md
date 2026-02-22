@@ -38,7 +38,9 @@ All results are live and reported net of transaction costs and slippage.
 - **Classical Confidence Intervals:** Based on Mertens's asymptotic standard error for the Sharpe ratio, which accounts for skewness ($\gamma_3$) and excess kurtosis ($\gamma_4$) under i.i.d. returns:
 
   $$SE(\hat{S}) = \sqrt{\frac{1 - \gamma_3 \hat{S} + \frac{\gamma_4 + 2}{4} \hat{S}^2}{n - 1}}$$
+
 - **Bootstrap Confidence Intervals:** Computed using a circular block bootstrap with studentized Sharpe statistics to account for time-series dependence.
+
 <!-- SHARPE_START -->
 | metric                                        |   values |
 |:----------------------------------------------|---------:|
