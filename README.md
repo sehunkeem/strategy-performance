@@ -29,13 +29,15 @@ All results are live and reported net of transaction costs and slippage.
 | CVaR 1%                      | -0.0298   |
 | VaR 5%                       | -0.0223   |
 | CVaR 5%                      | -0.0284   |
-| Correlation with BTC         |  0.492    |
+| Correlation with BTC         |  0.4921   |
 <!-- METRICS_END -->
 
 ## Sharpe Statistics
 - CSV: `sharpe_metrics.csv`
-- Classical inference (t-statistic and confidence intervals) is based on Lo (2002) asymptotic standard error for the Sharpe ratio under i.i.d. Gaussian returns.
-- Bootstrap confidence intervals are computed using circular block bootstrap with studentized Sharpe statistics.
+- **t-statistic & p-value:** Tests the null hypothesis that the true mean daily return is zero ($H_0: \mu = 0$) against the two-sided alternative ($H_A: \mu \neq 0$).
+- **Classical Confidence Intervals:** Based on Mertens's asymptotic standard error for the Sharpe ratio, which accounts for skewness ($\gamma_3$) and excess kurtosis ($\gamma_4$) under i.i.d. returns:
+  $$SE(\hat{S}) = \sqrt{\frac{1 - \gamma_3 \hat{S} + \frac{\gamma_4 + 2}{4} \hat{S}^2}{n - 1}}$$
+- **Bootstrap Confidence Intervals:** Computed using a circular block bootstrap with studentized Sharpe statistics to account for time-series dependence.
 <!-- SHARPE_START -->
 | metric                                        |   values |
 |:----------------------------------------------|---------:|
@@ -44,10 +46,10 @@ All results are live and reported net of transaction costs and slippage.
 | t-statistic                                   |   0.7346 |
 | Two sided p-value                             |   0.4694 |
 | Annualized Sharpe Ratio                       |   2.7524 |
-| Sharpe Confidence Interval Lower Bound        |  -4.7754 |
-| Sharpe Confidence Interval Upper Bound        |  10.2802 |
-| Sharpe Studentized Bootstrap C.I. Lower Bound |  -8.6686 |
-| Sharpe Studentized Bootstrap C.I. Upper Bound |   8.4436 |
+| Sharpe Confidence Interval Lower Bound        |  -5.752  |
+| Sharpe Confidence Interval Upper Bound        |  11.2567 |
+| Sharpe Studentized Bootstrap C.I. Lower Bound | -11.6184 |
+| Sharpe Studentized Bootstrap C.I. Upper Bound |   9.9259 |
 <!-- SHARPE_END -->
 
 ## Plots
