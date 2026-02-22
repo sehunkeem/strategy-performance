@@ -35,7 +35,7 @@ All results are live and reported net of transaction costs and slippage.
 ## Sharpe Statistics
 - CSV: `sharpe_metrics.csv`
 - **t-statistic & p-value:** Tests the null hypothesis that the true mean daily return is zero ($H_0: \mu = 0$) against the two-sided alternative ($H_A: \mu \neq 0$).
-- **Classical Confidence Intervals:** Based on Mertens's asymptotic standard error for the Sharpe ratio, which accounts for skewness ($\gamma_3$) and excess kurtosis ($\gamma_4$) under i.i.d. returns:
+- **Confidence Intervals:** Based on Mertens's asymptotic standard error for the Sharpe ratio, which accounts for skewness ($\gamma_3$) and excess kurtosis ($\gamma_4$) under i.i.d. returns:
 
   $$SE(\hat{S}) = \sqrt{\frac{1 - \gamma_3 \hat{S} + \frac{\gamma_4 + 2}{4} \hat{S}^2}{n - 1}}$$
 
