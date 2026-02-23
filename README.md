@@ -4,6 +4,24 @@ A systematic statistical arbitrage strategy using deep learning models in liquid
 The portfolio is rebalanced daily under constant-gross constraints.
 All results are live and reported net of transaction costs and slippage.
 
+## Plots
+### Equity Curves
+![Equity Curve](/plots/equity_curves.png)
+![Equity Curve](/plots/equity_curve.png)
+
+### BTC Exposure
+![BTC vs Strategy](/plots/btc_vs_strategy_scatter.png)
+
+### Monthly Returns Heatmap
+![Monthly](/plots/monthly_heatmap.png)
+
+### Drawdown
+![Drawdown](/plots/drawdown.png)
+
+### Returns Distribution
+![Returns](/plots/return_hist.png)
+
+
 ## Metrics
 - CSV: `metrics_strategy.csv`
 
@@ -35,9 +53,8 @@ All results are live and reported net of transaction costs and slippage.
 ## Sharpe Statistics
 - CSV: `sharpe_metrics.csv`
 - **t-statistic & p-value:** Tests the null hypothesis that the true mean daily return is zero ($H_0: \mu = 0$) against the two-sided alternative ($H_A: \mu \neq 0$).
-- **Confidence Intervals:** Based on Merton's asymptotic standard error for the Sharpe ratio, which accounts for skewness ($\gamma_3$) and excess kurtosis ($\gamma_4$) under i.i.d. returns assumption.
-- **Bootstrap Confidence Intervals:** Computed using a circular block bootstrap with studentized Sharpe statistics to account for time-series dependence.
-<!--  $$SE(\hat{S}) = \sqrt{\frac{1 - \gamma_3 \hat{S} + \frac{\gamma_4 + 2}{4} \hat{S}^2}{n - 1}}$$-->
+- **Confidence Intervals:** Based on Merton's asymptotic standard error for the Sharpe ratio, which accounts for skewness and excess kurtosis under i.i.d. returns assumption.
+- **Bootstrap Confidence Intervals:** Computed using a circular block bootstrap with studentized Sharpe statistics.
 <!-- SHARPE_START -->
 | metric                     |   values |
 |:---------------------------|---------:|
@@ -52,16 +69,3 @@ All results are live and reported net of transaction costs and slippage.
 | Bootstrap C.I. Upper Bound |   9.773  |
 <!-- SHARPE_END -->
 
-## Plots
-### Equity Curves
-![Equity Curve](/plots/equity_curves.png)
-![Equity Curve](/plots/equity_curve.png)
-
-### Monthly Returns Heatmap
-![Monthly](/plots/monthly_heatmap.png)
-
-### Drawdown
-![Drawdown](/plots/drawdown.png)
-
-### Returns Distribution
-![Returns](/plots/return_hist.png)
