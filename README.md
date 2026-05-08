@@ -5,48 +5,45 @@ The portfolio is rebalanced daily.
 All results are live and reported net of transaction costs and slippage.
 
 ## Plots
-### Equity Curves
-![Equity Curve](/plots/equity_curves.png)
+### Equity Curve
+![Equity Curve](/plots/equity_curve.png)
 
-### BTC Exposure
-![BTC vs Strategy](/plots/btc_vs_strategy_scatter.png)
+### Benchmark Comparison
+![Benchmark Comparison](/plots/benchmark_comparison.png)
 
-### Monthly Returns Heatmap
-![Monthly](/plots/monthly_heatmap.png)
+### Monthly Return Heatmap
+![Monthly Return Heatmap](/plots/monthly_return_heatmap.png)
 
-### Drawdown
-![Drawdown](/plots/drawdown.png)
-
-### Returns Distribution
-![Returns](/plots/return_hist.png)
+### Drawdown Curve
+![Drawdown Curve](/plots/drawdown_curve.png)
 
 
 ## Metrics
 - CSV: `metrics_strategy.csv`
 
 <!-- METRICS_START -->
-| metric                       |     values |
-|:-----------------------------|-----------:|
-| Number of Observations       | 101        |
-| Mean Daily Return            |  -0.000325 |
-| Daily Volatility             |   0.007379 |
-| Mean Annualized Return       |  -0.1186   |
-| Annualized Volatility        |   0.141    |
-| Maximum Drawdown             |  -0.089    |
-| Max Drawdown Duration (Days) |  72        |
-| Sharpe                       |  -0.8414   |
-| Sortino                      |  -0.911    |
-| Calmar                       |  -1.3564   |
-| CAGR                         |  -0.1207   |
-| Skewness                     |  -1.3567   |
-| Excess Kurtosis              |   5.1256   |
-| Win Rate                     |   0.5248   |
-| Profit Factor                |   0.8731   |
-| VaR 1%                       |  -0.0271   |
-| CVaR 1%                      |  -0.0286   |
-| VaR 5%                       |  -0.0088   |
-| CVaR 5%                      |  -0.0207   |
-| Correlation with BTC         |   0.1136   |
+| metric                       |       values |
+|:-----------------------------|-------------:|
+| Number of Observations       | 101          |
+| Mean Daily Return            |  -0.00032739 |
+| Daily Volatility             |   0.00733043 |
+| Mean Annualized Return       |  -0.119497   |
+| Annualized Volatility        |   0.140048   |
+| Maximum Drawdown             |  -0.088936   |
+| Max Drawdown Duration (Days) |  72          |
+| Sharpe                       |  -0.853262   |
+| Sortino                      |  -0.913472   |
+| Calmar                       |  -1.34363    |
+| CAGR                         |  -0.121288   |
+| Skewness                     |  -1.36283    |
+| Excess Kurtosis              |   5.12864    |
+| Win Rate                     |   0.524752   |
+| Profit Factor                |   0.87139    |
+| VaR 1%                       |  -0.0268727  |
+| CVaR 1%                      |  -0.0283601  |
+| VaR 5%                       |  -0.00870135 |
+| CVaR 5%                      |  -0.020596   |
+| Correlation with BTC         |   0.112399   |
 <!-- METRICS_END -->
 
 ## Sharpe Statistics
@@ -58,14 +55,14 @@ All results are live and reported net of transaction costs and slippage.
 | metric                     |   values |
 |:---------------------------|---------:|
 | alpha                      |   0.05   |
-| t-statistic                |  -0.4426 |
-| p-value                    |   0.659  |
-| Daily Sharpe Ratio         |  -0.044  |
-| Annualized Sharpe Ratio    |  -0.8414 |
-| Sharpe Standard Error      |   1.8559 |
-| C.I. Lower Bound           |  -4.479  |
-| C.I. Upper Bound           |   2.7962 |
-| Bootstrap C.I. Lower Bound |  -4.3694 |
-| Bootstrap C.I. Upper Bound |   3.1963 |
+| t-statistic                |  -0.4488 |
+| p-value                    |   0.6545 |
+| Daily Sharpe Ratio         |  -0.0447 |
+| Annualized Sharpe Ratio    |  -0.8533 |
+| Sharpe Standard Error      |   1.8549 |
+| C.I. Lower Bound           |  -4.4889 |
+| C.I. Upper Bound           |   2.7824 |
+| Bootstrap C.I. Lower Bound |  -4.3749 |
+| Bootstrap C.I. Upper Bound |   3.1817 |
 <!-- SHARPE_END -->
 
