@@ -17,7 +17,7 @@ rsync -av --checksum \
 PLOTS=(
   "benchmark_comparison.png"
   "drawdown_curve.png"
-  "equity_curve.png"
+#  "equity_curve.png"
   "monthly_return_heatmap.png"
 )
 
