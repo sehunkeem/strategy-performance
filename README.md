@@ -24,26 +24,26 @@ All results are live and reported net of transaction costs and slippage.
 <!-- METRICS_START -->
 | metric                       |        values |
 |:-----------------------------|--------------:|
-| Number of Observations       | 188           |
-| Mean Daily Return            |  -0.000364959 |
-| Daily Volatility             |   0.00843188  |
-| Mean Annualized Return       |  -0.13321     |
-| Annualized Volatility        |   0.161091    |
+| Number of Observations       | 189           |
+| Mean Daily Return            |  -0.000342496 |
+| Daily Volatility             |   0.00841509  |
+| Mean Annualized Return       |  -0.125011    |
+| Annualized Volatility        |   0.16077     |
 | Maximum Drawdown             |  -0.156146    |
-| Max Drawdown Duration (Days) | 159           |
-| Sharpe                       |  -0.826925    |
-| Sortino                      |  -1.14396     |
-| Calmar                       |  -0.853113    |
-| CAGR                         |  -0.135935    |
-| Skewness                     |   0.6694      |
-| Excess Kurtosis              |   8.59212     |
-| Win Rate                     |   0.468085    |
-| Profit Factor                |   0.872696    |
-| VaR 1%                       |  -0.0272595   |
+| Max Drawdown Duration (Days) | 160           |
+| Sharpe                       |  -0.777577    |
+| Sortino                      |  -1.07355     |
+| Calmar                       |  -0.800604    |
+| CAGR                         |  -0.128774    |
+| Skewness                     |   0.662391    |
+| Excess Kurtosis              |   8.61423     |
+| Win Rate                     |   0.470899    |
+| Profit Factor                |   0.879896    |
+| VaR 1%                       |  -0.0272297   |
 | CVaR 1%                      |  -0.030925    |
-| VaR 5%                       |  -0.0110711   |
+| VaR 5%                       |  -0.0110338   |
 | CVaR 5%                      |  -0.0201626   |
-| Correlation with BTC         |   0.00790808  |
+| Correlation with BTC         |   0.0113417   |
 <!-- METRICS_END -->
 
 ## Sharpe Statistics
@@ -55,14 +55,14 @@ All results are live and reported net of transaction costs and slippage.
 | metric                     |   values |
 |:---------------------------|---------:|
 | alpha                      |   0.05   |
-| t-statistic                |  -0.5935 |
-| p-value                    |   0.5536 |
-| Daily Sharpe Ratio         |  -0.0433 |
-| Annualized Sharpe Ratio    |  -0.8269 |
-| Sharpe Standard Error      |   1.4206 |
-| C.I. Lower Bound           |  -3.6113 |
-| C.I. Upper Bound           |   1.9574 |
-| Bootstrap C.I. Lower Bound |  -3.8234 |
-| Bootstrap C.I. Upper Bound |   2.6462 |
+| t-statistic                |  -0.5595 |
+| p-value                    |   0.5765 |
+| Daily Sharpe Ratio         |  -0.0407 |
+| Annualized Sharpe Ratio    |  -0.7776 |
+| Sharpe Standard Error      |   1.415  |
+| C.I. Lower Bound           |  -3.551  |
+| C.I. Upper Bound           |   1.9959 |
+| Bootstrap C.I. Lower Bound |  -3.7879 |
+| Bootstrap C.I. Upper Bound |   2.6337 |
 <!-- SHARPE_END -->
 
