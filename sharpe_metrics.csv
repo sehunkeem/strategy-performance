@@ -1,11 +1,11 @@
 metric,values
 alpha,0.05
-t-statistic,-0.5967
-p-value,0.5514
-Daily Sharpe Ratio,-0.0426
-Annualized Sharpe Ratio,-0.8143
-Sharpe Standard Error,1.3907
-C.I. Lower Bound,-3.54
-C.I. Upper Bound,1.9115
-Bootstrap C.I. Lower Bound,-3.7361
-Bootstrap C.I. Upper Bound,2.5748
+t-statistic,-0.5645
+p-value,0.5731
+Daily Sharpe Ratio,-0.0402
+Annualized Sharpe Ratio,-0.7684
+Sharpe Standard Error,1.3856
+C.I. Lower Bound,-3.4841
+C.I. Upper Bound,1.9473
+Bootstrap C.I. Lower Bound,-3.7187
+Bootstrap C.I. Upper Bound,2.6045
